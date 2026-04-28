@@ -1,8 +1,27 @@
 import "./App.css";
-import { useState, useEffect } from "react";
+import Search from "./components/header/search";
+import AboutMe from "./components/header/aboutMe";
 
 const App = () => {
-  return <h2>hi</h2>;
+  return (
+    <main>
+      <div className="pattern" />
+      <div className="header text-sm font-thin">
+        <header className="flex pl-14 pr-14 max-w-full pt-5 items-center">
+          <img src="logo.png" alt="logo of anuflix" className="max-h-7.5" />
+          <div className="flex pl-10.5 gap-5">
+            <h1>Movies</h1>
+            <h1>Songs</h1>
+            <h1>Video Games</h1>
+          </div>
+          <div className="flex ml-auto gap-5">
+            <Search />
+            <AboutMe />
+          </div>
+        </header>
+      </div>
+    </main>
+  );
 };
 
 export default App;

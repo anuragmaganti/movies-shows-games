@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/header/header";
 import MoviePage from "./pages/MoviePage.jsx";
 import VideoGamePage from "./pages/VideoGamePage.jsx";

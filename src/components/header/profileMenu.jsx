@@ -32,7 +32,7 @@ const ProfileMenu = () => {
         <Triangle
           width={9}
           fill="white"
-          className={`duration-200 ${isOpen ? "rotate-0" : "rotate-180"}`}
+          className={`duration-300 ${isOpen ? "rotate-0" : "rotate-180"}`}
           strokeWidth={0}
         />
       </button>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Triangle } from "lucide-react";
+import { Triangle, FolderHeart, Code } from "lucide-react";
 
 const AboutMe = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,8 +23,18 @@ const AboutMe = () => {
         />
       </button>
       {isOpen && (
-        <div className="absolute">
-          <li>hi</li>
+        <div className="absolute right-0 top-full w-45 p-3 flex flex-col gap-2 border border-gray-700 ">
+          <a className="flex gap-3 pl-2" href="https://www.amaganti.com/">
+            <FolderHeart></FolderHeart>
+            <div>Portfolio site</div>
+          </a>
+          <a
+            className="flex gap-3 pl-2"
+            href="https://github.com/anuragmaganti"
+          >
+            <Code></Code>
+            <div>Github</div>
+          </a>
         </div>
       )}
     </div>

@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { Triangle, FolderHeart, Code } from "lucide-react";
 
-const AboutMe = () => {
+const ProfileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
   const closeTimeout = useRef(null);
 
@@ -58,4 +58,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default ProfileMenu;

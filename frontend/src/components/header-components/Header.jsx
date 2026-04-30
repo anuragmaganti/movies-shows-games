@@ -1,5 +1,5 @@
-import Search from "./search";
-import ProfileMenu from "./profileMenu";
+import Search from "./Search.jsx";
+import ProfileMenu from "./ProfileMenu.jsx";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {

@@ -1,4 +1,4 @@
-import Header from "./components/header-components/header.jsx";
+import Header from "./components/header-components/Header.jsx";
 import MoviePage from "./pages/MoviePage.jsx";
 import VideoGamePage from "./pages/VideoGamePage.jsx";
 import TvShowPage from "./pages/TvShowPage.jsx";

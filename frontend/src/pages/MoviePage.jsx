@@ -1,4 +1,4 @@
-import MediaCard from "../components/mediaCard";
+import MediaCard from "../components/MediaCard.jsx";
 
 export default function MoviePage() {
   return (
